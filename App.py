@@ -5,9 +5,10 @@ from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import os
 import io
+import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 # Load the pre-trained model (adjust the model path as needed)
-model = load_model(r'Image_classifying_using_Max_pooling_.ipynb')
+model = tf.keras.models.load_model(r'Image_classifying_using_Max_pooling_.ipynb')
 
 # App title
 st.title("Emotion Detection with CNN: Is the Person Happy or Not? 😃🤔")
