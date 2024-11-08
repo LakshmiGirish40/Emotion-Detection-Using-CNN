@@ -8,7 +8,7 @@ import io
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 # Load the pre-trained model (adjust the model path as needed)
-model = load_model(r'model_detector/model.h5')
+model = load_model(r'model/model.h5')
 
 # App title
 st.title("Emotion Detection with CNN: Is the Person Happy or Not? 😃🤔")
