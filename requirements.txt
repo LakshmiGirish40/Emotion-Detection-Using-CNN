@@ -1,6 +1,9 @@
-streamlit
 tensorflow
-Pillow
+streamlit
 numpy
+opencv-python
 matplotlib
-
+Pillow
+scikit-learn
+pandas
+scipy
