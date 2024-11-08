@@ -62,7 +62,7 @@ st.title("Image Prediction App 📷")
 st.markdown('''Select an image from the dropdown menu on the left sidebar.)
 The app displays the chosen image and provides a prediction on whether the image conveys a "happy" or "not happy" emotion.''')
 # Specify the directory containing images
-img_dir = r"D:\pictures\testing"  # Update with your image directory path
+img_dir = r"testing"  # Update with your image directory path
 
 # Sidebar: Instructions and image selection
 st.sidebar.header("Instructions")
