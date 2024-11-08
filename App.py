@@ -8,7 +8,7 @@ import io
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 # Load the pre-trained model (adjust the model path as needed)
-model = tf.keras.models.load_model(r'Image_classifying_using_Max_pooling_.ipynb')
+model = load_model(r'Mood_detector.py')
 
 # App title
 st.title("Emotion Detection with CNN: Is the Person Happy or Not? 😃🤔")
