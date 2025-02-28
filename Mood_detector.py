@@ -23,7 +23,7 @@ else:
     
     
 train = ImageDataGenerator(rescale = 1/200)
-validataion = ImageDataGenerator(rescale = 1/200)
+validation = ImageDataGenerator(rescale = 1/200)
 # to scale all the images i need to divide with 255
 # we need to resize the image using 200, 200 pixel
 
@@ -32,7 +32,7 @@ train_dataset = train.flow_from_directory(r"D:\pictures\training",
                                          target_size = (200,200),
                                          batch_size = 20,
                                          class_mode = 'binary')
-validataion_dataset = validataion.flow_from_directory(r'D:\pictures\validation',
+validation_dataset = validataion.flow_from_directory(r'D:\pictures\validation',
                                           target_size = (200,200),
                                           batch_size = 20,
                                           class_mode = 'binary')
